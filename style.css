@@ -1,0 +1,100 @@
+body {
+    margin : 0;
+}
+
+#banner {
+    background-image: url(images/first.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    text-align: center;
+    color: black;
+    font-family: 'Oswald', sans-serif, bold;
+    padding: 180px 0 95px 0;
+    margin-bottom: 60px ;
+}
+
+
+#banner p {
+    padding: 0 100px;
+    font-family: 'Oswald', sans-serif, bold;
+}
+
+#banner2 {
+    background-image: url("images/terrain\ 2024.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    padding: 200px 0;
+}
+#banner3 {
+    background-image: url("images/joueur\ terrain.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    padding: 200px 0;
+}
+
+.box {
+    padding: 40px 40px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: rgb(43, 43, 155);
+}
+
+#banner5 {
+    background-image: url("images/insecurite.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+#banner6 {
+    background-image: url("images/francais.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    padding: 100px 0;
+}
+
+.grid {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+#banner4 {
+    background-image: url("images/vue\ du\ ciel\ terrain.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    padding: 200px 0;
+    width: 100vw;
+    grid-gap: 10px;
+}
+
+.box2 {
+    padding: 40 px 40 px;
+    font-family:'Oswald', sans-serif;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
